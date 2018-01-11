@@ -1,0 +1,24 @@
+#tomcat
+server:
+ port: 8080
+ tomcat.uri-encoding: utf-8
+#MySQL
+spring.datasource:
+ driver-class-name: com.mysql.jdbc.Driver
+ url: jdbc:mysql://localhost:3306/springboot_blog?characterEncoding=utf8
+ username: root
+ password: root
+#Spring Data JPA
+spring.jpa:
+ database: MYSQL
+ show-sql: true
+ hibernate.ddl-auto: update
+# Naming strategy
+ hibernate.naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+# stripped before adding them to the entity manager)
+ properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+# ”Õº≤„øÿ÷∆
+spring.mvc:
+ view.prefix: classpath:/templates/
+ view.suffix: .html
+ static-path-pattern: /static/**
