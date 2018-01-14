@@ -49,4 +49,12 @@ public class HomeController {
         return "403";
     }
 
+    @RequestMapping("/home")
+    public String adminHomePage(){
+        return "/admin/home";
+    }
+    @RequestMapping("/first")
+    public String firstHomePage(){
+        return "/first";
+    }
 }

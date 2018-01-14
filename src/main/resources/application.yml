@@ -22,5 +22,10 @@ spring:
        cache: false
        mode: LEGACYHTML5
 
+    mvc:
+      static-path-pattern: /**
+      view:
+        prefix: /
+        suffix: .html
 
 debug: true
