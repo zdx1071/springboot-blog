@@ -1,13 +1,14 @@
-package com.zdx.configuration;
+package com.zdx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * 入口类
+ */
 @SpringBootApplication
-@ComponentScan(basePackages = "com.zdx")
-public class Entry {
+public class SpringBootShiroApplication  {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Entry.class, args);
+        SpringApplication.run(SpringBootShiroApplication.class, args);
     }
 }
