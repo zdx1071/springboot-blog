@@ -51,10 +51,8 @@ public class HomeController {
 
     @RequestMapping("/home")
     public String adminHomePage(){
+        System.out.println("homepage");
         return "/admin/home";
     }
-    @RequestMapping("/first")
-    public String firstHomePage(){
-        return "/first";
-    }
+
 }
