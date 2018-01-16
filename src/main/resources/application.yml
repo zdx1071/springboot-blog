@@ -19,6 +19,7 @@ spring:
             dialect: org.hibernate.dialect.MySQL5Dialect
 
     thymeleaf:
+      #关闭thymeleaf的缓存，不然在开发过程中修改页面不会立刻生效需要重启，生产可配置为true。
        cache: false
        mode: LEGACYHTML5
 
@@ -29,3 +30,13 @@ spring:
         suffix: .html
 
 debug: true
+
+shiro:
+    home:
+      pre:
+      url:
+      logout:
+    success:
+      url: /home
+    login:
+      url: /login

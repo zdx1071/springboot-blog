@@ -1,21 +1,25 @@
 package com.zdx.web;
 
+import com.zdx.service.UserService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/userInfo")
-public class UserInfoController {
+@RequestMapping("/user")
+public class UserController {
 
+    @Autowired
+    UserService userService;
     /**
      * 用户查询.
      * @return
      */
     @RequestMapping("/userList")
-    @RequiresPermissions("userInfo:view")//权限管理;
-    public String userInfo(){
-        return "userInfo";
+    @RequiresPermissions("user:view")//权限管理;
+    public String user(){
+        return "user";
     }
 
     /**
@@ -23,9 +27,9 @@ public class UserInfoController {
      * @return
      */
     @RequestMapping("/userAdd")
-    @RequiresPermissions("userInfo:add")//权限管理;
-    public String userInfoAdd(){
-        return "userInfoAdd";
+    @RequiresPermissions("user:add")//权限管理;
+    public String userAdd(){
+        return "userAdd";
     }
 
     /**
@@ -33,8 +37,8 @@ public class UserInfoController {
      * @return
      */
     @RequestMapping("/userDel")
-    @RequiresPermissions("userInfo:del")//权限管理;
+    @RequiresPermissions("user:del")//权限管理;
     public String userDel(){
-        return "userInfoDel";
+        return "userDel";
     }
 }

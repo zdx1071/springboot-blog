@@ -1,7 +1,9 @@
 package com.zdx.web;
 
+import com.zdx.service.UserService;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -10,12 +12,16 @@ import java.util.Map;
 
 @Controller
 public class HomeController {
+
+    @Autowired
+    private UserService userService;
+
     @RequestMapping({"/","/index"})
     public String index(){
         return"/index";
     }
 
-    @RequestMapping("/login")
+    @RequestMapping(value = "/login")
     public String login(HttpServletRequest request, Map<String, Object> map) throws Exception{
         System.out.println("HomeController.login()");
         // 登录失败从request中获取shiro处理的异常信息。
@@ -40,7 +46,7 @@ public class HomeController {
         }
         map.put("msg", msg);
         // 此方法不处理登录成功,由shiro进行处理
-        return "/login";
+        return "login";
     }
 
     @RequestMapping("/403")
@@ -51,7 +57,6 @@ public class HomeController {
 
     @RequestMapping("/home")
     public String adminHomePage(){
-        System.out.println("homepage");
         return "/admin/home";
     }
 

@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c02bfe2-1919-4f65-a3ed-1af6ec8ab674" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/resources/ehcache-shiro.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/first.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_3_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyFormAuthenticationFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserInfoService.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserInfoDao.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/UserInfo.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Article.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserInfoServiceImpl.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserInfoController.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-blog/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/pom.xml" afterPath="$PROJECT_DIR$/../springboot-blog/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/springboot-blog.iml" afterPath="$PROJECT_DIR$/../springboot-blog/springboot-blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysRole.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysRole.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../springboot-blog/out/" />
     <ignored path="$PROJECT_DIR$/../springboot-blog/target/" />
@@ -33,6 +29,17 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -46,44 +53,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+            <state relative-caret-position="-377">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
-                <element signature="e#4654#4655#0" expanded="true" />
-                <element signature="e#4709#4710#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot-blog/pom.xml">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="-264">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java">
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="-1694">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -92,18 +93,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ehcache-shiro.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/ehcache-shiro.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="176">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -112,10 +103,52 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,9 +177,14 @@
       <find>starter</find>
       <find>resolve</find>
       <find>img-responsive</find>
-      <find>userInfo</find>
       <find>onLoginSuccess</find>
       <find>MyShiroFilterFactoryBean</find>
+      <find>setTotalCount</find>
+      <find>findByUsername</find>
+      <find>userInfo</find>
+      <find>UserInfo</find>
+      <find>id</find>
+      <find>uid</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -163,21 +201,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/user/index.html" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserRepository.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Page.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/UserRole.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Permission.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Role.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Module.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/AuthRealm.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/CredentialsMatcher.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/configuration/Entry.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/configuration/JpaConfiguration.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Article.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Category.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/DruidConfiguation.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/mapper/UserMapper.java" />
@@ -186,34 +215,43 @@
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/MyRealm.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/User.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserService.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/shiro/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/configuration/Application.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysPermission.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysRole.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/static/css/index.css" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/first.html" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java" />
-        <option value="$PROJECT_DIR$/../springboot-blog/pom.xml" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/ehcache-shiro.xml" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/FormAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyFormAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Article.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Category.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Page.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserController.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/User.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java" />
+        <option value="$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -237,10 +275,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="764" />
-    <option name="y" value="28" />
+    <option name="x" value="684" />
+    <option name="y" value="18" />
     <option name="width" value="1144" />
-    <option name="height" value="978" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -320,7 +358,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zdx" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zdx" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zdx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zdx" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -420,19 +489,22 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\springboot-blog\src\main\resources\static\scripts" />
-      <recent name="C:\springboot-blog\src\main\resources\templates\admin" />
-      <recent name="C:\springboot-blog\src\main\resources\static\css" />
-      <recent name="C:\springboot-blog\src\main\resources\static" />
-      <recent name="C:\springboot-blog\src\main\resources\static\image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\springboot-blog\src\main\resources\static\js" />
       <recent name="C:\springboot-blog\src\main\resources\templates\admin" />
       <recent name="C:\springboot-blog\src\main\resources\templates" />
       <recent name="C:\springboot-blog\src\main\resources\templates\home" />
       <recent name="C:\springboot-blog\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zdx.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\springboot-blog\src\main\resources\static\scripts" />
+      <recent name="C:\springboot-blog\src\main\resources\templates\admin" />
+      <recent name="C:\springboot-blog\src\main\resources\static\css" />
+      <recent name="C:\springboot-blog\src\main\resources\static" />
+      <recent name="C:\springboot-blog\src\main\resources\static\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,7 +645,7 @@
       <workItem from="1515821507617" duration="10714000" />
       <workItem from="1515893523247" duration="17131000" />
       <workItem from="1515933576883" duration="12699000" />
-      <workItem from="1515986479996" duration="8712000" />
+      <workItem from="1515986479996" duration="33744000" />
     </task>
     <task id="LOCAL-00001" summary="init version">
       <created>1515658025406</created>
@@ -631,14 +703,29 @@
       <option name="project" value="LOCAL" />
       <updated>1515947842224</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2018年1月15日22点 version">
+      <created>1516025393406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516025393406</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2018年1月16日12点 version">
+      <created>1516077477402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516077477402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97325000" />
+    <option name="totallyTimeSpent" value="122357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="28" width="1144" height="978" extended-state="0" />
+    <frame x="684" y="18" width="1144" height="989" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -646,18 +733,18 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27942926" sideWeight="0.50369006" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48004696" sideWeight="0.50830257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27942926" sideWeight="0.49630997" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.49446493" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48004696" sideWeight="0.49169743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23892988" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23892988" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -685,11 +772,13 @@
     <MESSAGE value="2018年1月11日 version" />
     <MESSAGE value="2018年1月13日 version" />
     <MESSAGE value="2018年1月14日 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年1月14日 version" />
+    <MESSAGE value="2018年1月15日22点 version" />
+    <MESSAGE value="2018年1月16日12点 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018年1月16日12点 version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -698,15 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Permission.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.3.4.Final/hibernate-validator-5.3.4.Final.jar!/org/hibernate/validator/constraints/NotEmpty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/annotation/MapperScan.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -762,53 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Category.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Article.java" />
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/static/css/layui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -822,40 +855,6 @@
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/static/vendor/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/success.html" />
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/static/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/userInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/first.html" />
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/static/js/layui.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -873,13 +872,172 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/log4j2.xml" />
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html">
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/ehcache-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="110">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/userInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/SpringBootShiroApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyFormAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -891,62 +1049,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/admin/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        <state relative-caret-position="374">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="80" lean-forward="false" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/resources/ehcache-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="415">
+          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/MyShiroRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="271">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../springboot-blog/src/main/java/com/zdx/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding>
-            <element signature="e#4654#4655#0" expanded="true" />
-            <element signature="e#4709#4710#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1694">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
